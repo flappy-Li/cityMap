@@ -85,7 +85,7 @@ instance.interceptors.request.use(
 		token && (config.headers.Authorization = token)
 		return config;
 	},
-	error =>  Promise.error(error);
+	error =>  Promise.error(error)
 )
 
 
